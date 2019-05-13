@@ -51,7 +51,7 @@ void removeValue(BSTNode* node,BSTNode* root){
 }
 
 void codeChefBSTTask(){
-    int q;
+    long long int q;
     cin>>q;
     bool treeExists = false;
     BSTNode* root = NULL;

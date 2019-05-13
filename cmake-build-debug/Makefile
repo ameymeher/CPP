@@ -176,6 +176,33 @@ Box/Box.cpp.s:
 	$(MAKE) -f CMakeFiles\SampleProject.dir\build.make CMakeFiles/SampleProject.dir/Box/Box.cpp.s
 .PHONY : Box/Box.cpp.s
 
+Date/Date.obj: Date/Date.cpp.obj
+
+.PHONY : Date/Date.obj
+
+# target to build an object file
+Date/Date.cpp.obj:
+	$(MAKE) -f CMakeFiles\SampleProject.dir\build.make CMakeFiles/SampleProject.dir/Date/Date.cpp.obj
+.PHONY : Date/Date.cpp.obj
+
+Date/Date.i: Date/Date.cpp.i
+
+.PHONY : Date/Date.i
+
+# target to preprocess a source file
+Date/Date.cpp.i:
+	$(MAKE) -f CMakeFiles\SampleProject.dir\build.make CMakeFiles/SampleProject.dir/Date/Date.cpp.i
+.PHONY : Date/Date.cpp.i
+
+Date/Date.s: Date/Date.cpp.s
+
+.PHONY : Date/Date.s
+
+# target to generate assembly for a file
+Date/Date.cpp.s:
+	$(MAKE) -f CMakeFiles\SampleProject.dir\build.make CMakeFiles/SampleProject.dir/Date/Date.cpp.s
+.PHONY : Date/Date.cpp.s
+
 Student/Student.obj: Student/Student.cpp.obj
 
 .PHONY : Student/Student.obj
@@ -245,6 +272,9 @@ help:
 	@echo ... Box/Box.obj
 	@echo ... Box/Box.i
 	@echo ... Box/Box.s
+	@echo ... Date/Date.obj
+	@echo ... Date/Date.i
+	@echo ... Date/Date.s
 	@echo ... Student/Student.obj
 	@echo ... Student/Student.i
 	@echo ... Student/Student.s

@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/SampleProject.dir/Student/Student.cpp.obj"
   "CMakeFiles/SampleProject.dir/Box/Box.cpp.obj"
   "CMakeFiles/SampleProject.dir/BST/BSTNode.cpp.obj"
+  "CMakeFiles/SampleProject.dir/Date/Date.cpp.obj"
   "SampleProject.pdb"
   "SampleProject.exe"
   "SampleProject.exe.manifest"

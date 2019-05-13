@@ -92,6 +92,12 @@
 		<Unit filename="C:/Users/Amey/CLionProjects/CPP/Box/Box.h">
 			<Option target="SampleProject"/>
 		</Unit>
+		<Unit filename="C:/Users/Amey/CLionProjects/CPP/Date/Date.cpp">
+			<Option target="SampleProject"/>
+		</Unit>
+		<Unit filename="C:/Users/Amey/CLionProjects/CPP/Date/Date.h">
+			<Option target="SampleProject"/>
+		</Unit>
 		<Unit filename="C:/Users/Amey/CLionProjects/CPP/Student/Student.cpp">
 			<Option target="SampleProject"/>
 		</Unit>
