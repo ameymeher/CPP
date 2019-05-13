@@ -1,0 +1,3 @@
+C:/Users/Amey/CLionProjects/CPP/cmake-build-debug/CMakeFiles/SampleProject.dir
+C:/Users/Amey/CLionProjects/CPP/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Amey/CLionProjects/CPP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
