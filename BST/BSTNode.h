@@ -323,4 +323,6 @@ void successorValue(BSTNode* node);
 void predecessorValue(BSTNode* node);
 void removeValue(BSTNode* node, BSTNode* root);
 
+void codeChefBSTTask();
+void BSTTest();
 #endif //SAMPLEPROJECT_BSTNODE_H

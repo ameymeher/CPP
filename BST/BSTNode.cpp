@@ -49,3 +49,43 @@ void removeValue(BSTNode* node,BSTNode* root){
     BSTNode::remove(node);
     BSTNode::printTreeInOrder(root);
 }
+
+void codeChefBSTTask(){
+    int q;
+    cin>>q;
+    bool treeExists = false;
+    BSTNode* root = NULL;
+    for(int i=0;i<q;i++){
+        char c;
+        long long n;
+        cin>>c>>n;
+
+        if(c == 'i'){
+            if(!treeExists) {
+                root = new BSTNode(n, 1);
+                cout << 1 << endl;
+                treeExists = true;
+            }
+            else{
+                BSTNode::insert(root,n);
+            }
+
+        }
+        else if(c == 'd'){
+            BSTNode* node = BSTNode::search(root,n);
+            cout<<node->getPosition()<<endl;
+            BSTNode::remove(node);
+        }
+
+    }
+}
+
+void BSTTest(){
+    BSTNode* root = insertNode();
+    BSTNode* node = searchNode(root,23);
+    cout<<"Position: " << node->getPosition()<<endl;
+    successorValue(node);
+    predecessorValue(node);
+    removeValue(node,root);
+
+}
