@@ -16,22 +16,22 @@ using namespace std;
 class BSTNode {
 
     private:
-        unsigned long long key;
-        unsigned int position;
+        long long key;
+        unsigned long long position;
         BSTNode* left;
         BSTNode* right;
         BSTNode* parent;
 
     public:
 
-        BSTNode(unsigned long long key){
+        BSTNode(long long key){
             this->key = key;
             parent = NULL;
             left = NULL;
             right = NULL;
         }
 
-    BSTNode(unsigned long long key, int position){
+    BSTNode(long long key, unsigned long long position){
         this->key = key;
         this->position = position;
         parent = NULL;
@@ -39,17 +39,17 @@ class BSTNode {
         right = NULL;
     }
 
-        BSTNode(unsigned long long key, BSTNode* left, BSTNode* right){
+        BSTNode(long long key, BSTNode* left, BSTNode* right){
             this->key = key;
             this->left = left;
             this->right = right;
         }
 
-        unsigned long long getKey() const {
+        long long getKey() const {
             return key;
         }
 
-        void setKey(unsigned long long key) {
+        void setKey(long long key) {
             BSTNode::key = key;
         }
 
@@ -77,17 +77,17 @@ class BSTNode {
             BSTNode::parent = parent;
         }
 
-        unsigned int getPosition() const {
+        unsigned long long getPosition() const {
             return position;
         }
 
-        void setPosition(unsigned int position) {
+        void setPosition(unsigned long long position) {
             BSTNode::position = position;
         }
 
         //Time complexity is O(h)
         //Does not handle the skewed case
-        static BSTNode* insert(BSTNode* root, unsigned long long key, unsigned int position=1){
+        static BSTNode* insert(BSTNode* root, long long key, unsigned long long position=1){
 
             //If root does not exist, then create the node and substitute the value
             if(root == NULL){
@@ -127,7 +127,7 @@ class BSTNode {
 
         }
 
-        static BSTNode* search(BSTNode* root, unsigned long long key){
+        static BSTNode* search(BSTNode* root, long long key){
 
             //If the given key is not found in the BST
             if(root == NULL){

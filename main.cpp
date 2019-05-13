@@ -38,7 +38,7 @@ int main() {
     BSTNode* root = NULL;
     for(int i=0;i<q;i++){
         char c;
-        unsigned long long n;
+        long long n;
         cin>>c>>n;
 
         if(c == 'i'){
