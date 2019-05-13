@@ -16,7 +16,7 @@ using namespace std;
 class BSTNode {
 
     private:
-        int key;
+        unsigned long long key;
         unsigned int position;
         BSTNode* left;
         BSTNode* right;
@@ -24,14 +24,14 @@ class BSTNode {
 
     public:
 
-        BSTNode(int key){
+        BSTNode(unsigned long long key){
             this->key = key;
             parent = NULL;
             left = NULL;
             right = NULL;
         }
 
-    BSTNode(int key, int position){
+    BSTNode(unsigned long long key, int position){
         this->key = key;
         this->position = position;
         parent = NULL;
@@ -39,17 +39,17 @@ class BSTNode {
         right = NULL;
     }
 
-        BSTNode(int key, BSTNode* left, BSTNode* right){
+        BSTNode(unsigned long long key, BSTNode* left, BSTNode* right){
             this->key = key;
             this->left = left;
             this->right = right;
         }
 
-        int getKey() const {
+        unsigned long long getKey() const {
             return key;
         }
 
-        void setKey(int key) {
+        void setKey(unsigned long long key) {
             BSTNode::key = key;
         }
 
@@ -87,7 +87,7 @@ class BSTNode {
 
         //Time complexity is O(h)
         //Does not handle the skewed case
-        static BSTNode* insert(BSTNode* root, int key, unsigned int position=1){
+        static BSTNode* insert(BSTNode* root, unsigned long long key, unsigned int position=1){
 
             //If root does not exist, then create the node and substitute the value
             if(root == NULL){
@@ -127,7 +127,7 @@ class BSTNode {
 
         }
 
-        static BSTNode* search(BSTNode* root, int key){
+        static BSTNode* search(BSTNode* root, unsigned long long key){
 
             //If the given key is not found in the BST
             if(root == NULL){

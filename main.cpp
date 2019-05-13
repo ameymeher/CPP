@@ -35,10 +35,10 @@ int main() {
     int q;
     cin>>q;
     bool treeExists = false;
-    BSTNode* root;
+    BSTNode* root = NULL;
     for(int i=0;i<q;i++){
         char c;
-        int n;
+        unsigned long long n;
         cin>>c>>n;
 
         if(c == 'i'){
