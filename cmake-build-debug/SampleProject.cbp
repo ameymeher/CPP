@@ -80,16 +80,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Amey/CLionProjects/CPP/BST/BSTNode.cpp">
-			<Option target="SampleProject"/>
-		</Unit>
-		<Unit filename="C:/Users/Amey/CLionProjects/CPP/BST/BSTNode.h">
-			<Option target="SampleProject"/>
-		</Unit>
 		<Unit filename="C:/Users/Amey/CLionProjects/CPP/Box/Box.cpp">
 			<Option target="SampleProject"/>
 		</Unit>
 		<Unit filename="C:/Users/Amey/CLionProjects/CPP/Box/Box.h">
+			<Option target="SampleProject"/>
+		</Unit>
+		<Unit filename="C:/Users/Amey/CLionProjects/CPP/DS/BST/BSTNode.cpp">
+			<Option target="SampleProject"/>
+		</Unit>
+		<Unit filename="C:/Users/Amey/CLionProjects/CPP/DS/BST/BSTNode.h">
+			<Option target="SampleProject"/>
+		</Unit>
+		<Unit filename="C:/Users/Amey/CLionProjects/CPP/DS/Graph/ListGraph.cpp">
+			<Option target="SampleProject"/>
+		</Unit>
+		<Unit filename="C:/Users/Amey/CLionProjects/CPP/DS/Graph/ListGraph.h">
+			<Option target="SampleProject"/>
+		</Unit>
+		<Unit filename="C:/Users/Amey/CLionProjects/CPP/DS/Graph/MatrixGraph/MatrixGraph.cpp">
+			<Option target="SampleProject"/>
+		</Unit>
+		<Unit filename="C:/Users/Amey/CLionProjects/CPP/DS/Graph/MatrixGraph/MatrixGraph.h">
 			<Option target="SampleProject"/>
 		</Unit>
 		<Unit filename="C:/Users/Amey/CLionProjects/CPP/Date/Date.cpp">
@@ -102,6 +114,12 @@
 			<Option target="SampleProject"/>
 		</Unit>
 		<Unit filename="C:/Users/Amey/CLionProjects/CPP/Student/Student.h">
+			<Option target="SampleProject"/>
+		</Unit>
+		<Unit filename="C:/Users/Amey/CLionProjects/CPP/Utilities/Matrix/Matrix.cpp">
+			<Option target="SampleProject"/>
+		</Unit>
+		<Unit filename="C:/Users/Amey/CLionProjects/CPP/Utilities/Matrix/Matrix.h">
 			<Option target="SampleProject"/>
 		</Unit>
 		<Unit filename="C:/Users/Amey/CLionProjects/CPP/main.cpp">

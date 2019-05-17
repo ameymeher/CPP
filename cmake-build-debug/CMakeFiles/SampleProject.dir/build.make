@@ -95,18 +95,18 @@ CMakeFiles/SampleProject.dir/Box/Box.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SampleProject.dir/Box/Box.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Amey\CLionProjects\CPP\Box\Box.cpp -o CMakeFiles\SampleProject.dir\Box\Box.cpp.s
 
-CMakeFiles/SampleProject.dir/BST/BSTNode.cpp.obj: CMakeFiles/SampleProject.dir/flags.make
-CMakeFiles/SampleProject.dir/BST/BSTNode.cpp.obj: ../BST/BSTNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Amey\CLionProjects\CPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SampleProject.dir/BST/BSTNode.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SampleProject.dir\BST\BSTNode.cpp.obj -c C:\Users\Amey\CLionProjects\CPP\BST\BSTNode.cpp
+CMakeFiles/SampleProject.dir/DS/BST/BSTNode.cpp.obj: CMakeFiles/SampleProject.dir/flags.make
+CMakeFiles/SampleProject.dir/DS/BST/BSTNode.cpp.obj: ../DS/BST/BSTNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Amey\CLionProjects\CPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SampleProject.dir/DS/BST/BSTNode.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SampleProject.dir\DS\BST\BSTNode.cpp.obj -c C:\Users\Amey\CLionProjects\CPP\DS\BST\BSTNode.cpp
 
-CMakeFiles/SampleProject.dir/BST/BSTNode.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SampleProject.dir/BST/BSTNode.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Amey\CLionProjects\CPP\BST\BSTNode.cpp > CMakeFiles\SampleProject.dir\BST\BSTNode.cpp.i
+CMakeFiles/SampleProject.dir/DS/BST/BSTNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SampleProject.dir/DS/BST/BSTNode.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Amey\CLionProjects\CPP\DS\BST\BSTNode.cpp > CMakeFiles\SampleProject.dir\DS\BST\BSTNode.cpp.i
 
-CMakeFiles/SampleProject.dir/BST/BSTNode.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SampleProject.dir/BST/BSTNode.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Amey\CLionProjects\CPP\BST\BSTNode.cpp -o CMakeFiles\SampleProject.dir\BST\BSTNode.cpp.s
+CMakeFiles/SampleProject.dir/DS/BST/BSTNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SampleProject.dir/DS/BST/BSTNode.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Amey\CLionProjects\CPP\DS\BST\BSTNode.cpp -o CMakeFiles\SampleProject.dir\DS\BST\BSTNode.cpp.s
 
 CMakeFiles/SampleProject.dir/Date/Date.cpp.obj: CMakeFiles/SampleProject.dir/flags.make
 CMakeFiles/SampleProject.dir/Date/Date.cpp.obj: ../Date/Date.cpp
@@ -121,13 +121,55 @@ CMakeFiles/SampleProject.dir/Date/Date.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SampleProject.dir/Date/Date.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Amey\CLionProjects\CPP\Date\Date.cpp -o CMakeFiles\SampleProject.dir\Date\Date.cpp.s
 
+CMakeFiles/SampleProject.dir/Utilities/Matrix/Matrix.cpp.obj: CMakeFiles/SampleProject.dir/flags.make
+CMakeFiles/SampleProject.dir/Utilities/Matrix/Matrix.cpp.obj: ../Utilities/Matrix/Matrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Amey\CLionProjects\CPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SampleProject.dir/Utilities/Matrix/Matrix.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SampleProject.dir\Utilities\Matrix\Matrix.cpp.obj -c C:\Users\Amey\CLionProjects\CPP\Utilities\Matrix\Matrix.cpp
+
+CMakeFiles/SampleProject.dir/Utilities/Matrix/Matrix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SampleProject.dir/Utilities/Matrix/Matrix.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Amey\CLionProjects\CPP\Utilities\Matrix\Matrix.cpp > CMakeFiles\SampleProject.dir\Utilities\Matrix\Matrix.cpp.i
+
+CMakeFiles/SampleProject.dir/Utilities/Matrix/Matrix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SampleProject.dir/Utilities/Matrix/Matrix.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Amey\CLionProjects\CPP\Utilities\Matrix\Matrix.cpp -o CMakeFiles\SampleProject.dir\Utilities\Matrix\Matrix.cpp.s
+
+CMakeFiles/SampleProject.dir/DS/Graph/MatrixGraph/MatrixGraph.cpp.obj: CMakeFiles/SampleProject.dir/flags.make
+CMakeFiles/SampleProject.dir/DS/Graph/MatrixGraph/MatrixGraph.cpp.obj: ../DS/Graph/MatrixGraph/MatrixGraph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Amey\CLionProjects\CPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SampleProject.dir/DS/Graph/MatrixGraph/MatrixGraph.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SampleProject.dir\DS\Graph\MatrixGraph\MatrixGraph.cpp.obj -c C:\Users\Amey\CLionProjects\CPP\DS\Graph\MatrixGraph\MatrixGraph.cpp
+
+CMakeFiles/SampleProject.dir/DS/Graph/MatrixGraph/MatrixGraph.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SampleProject.dir/DS/Graph/MatrixGraph/MatrixGraph.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Amey\CLionProjects\CPP\DS\Graph\MatrixGraph\MatrixGraph.cpp > CMakeFiles\SampleProject.dir\DS\Graph\MatrixGraph\MatrixGraph.cpp.i
+
+CMakeFiles/SampleProject.dir/DS/Graph/MatrixGraph/MatrixGraph.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SampleProject.dir/DS/Graph/MatrixGraph/MatrixGraph.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Amey\CLionProjects\CPP\DS\Graph\MatrixGraph\MatrixGraph.cpp -o CMakeFiles\SampleProject.dir\DS\Graph\MatrixGraph\MatrixGraph.cpp.s
+
+CMakeFiles/SampleProject.dir/DS/Graph/ListGraph.cpp.obj: CMakeFiles/SampleProject.dir/flags.make
+CMakeFiles/SampleProject.dir/DS/Graph/ListGraph.cpp.obj: ../DS/Graph/ListGraph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Amey\CLionProjects\CPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SampleProject.dir/DS/Graph/ListGraph.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SampleProject.dir\DS\Graph\ListGraph.cpp.obj -c C:\Users\Amey\CLionProjects\CPP\DS\Graph\ListGraph.cpp
+
+CMakeFiles/SampleProject.dir/DS/Graph/ListGraph.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SampleProject.dir/DS/Graph/ListGraph.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Amey\CLionProjects\CPP\DS\Graph\ListGraph.cpp > CMakeFiles\SampleProject.dir\DS\Graph\ListGraph.cpp.i
+
+CMakeFiles/SampleProject.dir/DS/Graph/ListGraph.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SampleProject.dir/DS/Graph/ListGraph.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Amey\CLionProjects\CPP\DS\Graph\ListGraph.cpp -o CMakeFiles\SampleProject.dir\DS\Graph\ListGraph.cpp.s
+
 # Object files for target SampleProject
 SampleProject_OBJECTS = \
 "CMakeFiles/SampleProject.dir/main.cpp.obj" \
 "CMakeFiles/SampleProject.dir/Student/Student.cpp.obj" \
 "CMakeFiles/SampleProject.dir/Box/Box.cpp.obj" \
-"CMakeFiles/SampleProject.dir/BST/BSTNode.cpp.obj" \
-"CMakeFiles/SampleProject.dir/Date/Date.cpp.obj"
+"CMakeFiles/SampleProject.dir/DS/BST/BSTNode.cpp.obj" \
+"CMakeFiles/SampleProject.dir/Date/Date.cpp.obj" \
+"CMakeFiles/SampleProject.dir/Utilities/Matrix/Matrix.cpp.obj" \
+"CMakeFiles/SampleProject.dir/DS/Graph/MatrixGraph/MatrixGraph.cpp.obj" \
+"CMakeFiles/SampleProject.dir/DS/Graph/ListGraph.cpp.obj"
 
 # External object files for target SampleProject
 SampleProject_EXTERNAL_OBJECTS =
@@ -135,13 +177,16 @@ SampleProject_EXTERNAL_OBJECTS =
 SampleProject.exe: CMakeFiles/SampleProject.dir/main.cpp.obj
 SampleProject.exe: CMakeFiles/SampleProject.dir/Student/Student.cpp.obj
 SampleProject.exe: CMakeFiles/SampleProject.dir/Box/Box.cpp.obj
-SampleProject.exe: CMakeFiles/SampleProject.dir/BST/BSTNode.cpp.obj
+SampleProject.exe: CMakeFiles/SampleProject.dir/DS/BST/BSTNode.cpp.obj
 SampleProject.exe: CMakeFiles/SampleProject.dir/Date/Date.cpp.obj
+SampleProject.exe: CMakeFiles/SampleProject.dir/Utilities/Matrix/Matrix.cpp.obj
+SampleProject.exe: CMakeFiles/SampleProject.dir/DS/Graph/MatrixGraph/MatrixGraph.cpp.obj
+SampleProject.exe: CMakeFiles/SampleProject.dir/DS/Graph/ListGraph.cpp.obj
 SampleProject.exe: CMakeFiles/SampleProject.dir/build.make
 SampleProject.exe: CMakeFiles/SampleProject.dir/linklibs.rsp
 SampleProject.exe: CMakeFiles/SampleProject.dir/objects1.rsp
 SampleProject.exe: CMakeFiles/SampleProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Amey\CLionProjects\CPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable SampleProject.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Amey\CLionProjects\CPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable SampleProject.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\SampleProject.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

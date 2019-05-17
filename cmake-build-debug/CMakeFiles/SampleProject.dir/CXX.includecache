@@ -6,27 +6,17 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Amey/CLionProjects/CPP/BST/BSTNode.cpp
-BSTNode.h
-C:/Users/Amey/CLionProjects/CPP/BST/BSTNode.h
+C:/Users/Amey/CLionProjects/CPP/DS/Graph/MatrixGraph/MatrixGraph.cpp
+MatrixGraph.h
+C:/Users/Amey/CLionProjects/CPP/DS/Graph/MatrixGraph/MatrixGraph.h
 
-C:/Users/Amey/CLionProjects/CPP/BST/BSTNode.h
+C:/Users/Amey/CLionProjects/CPP/DS/Graph/MatrixGraph/MatrixGraph.h
+../../../Utilities/Matrix/Matrix.h
+C:/Users/Amey/CLionProjects/CPP/Utilities/Matrix/Matrix.h
+
+C:/Users/Amey/CLionProjects/CPP/Utilities/Matrix/Matrix.h
 iostream
--
-math.h
--
-
-C:/Users/Amey/CLionProjects/CPP/main.cpp
-cmath
--
-cstdio
 -
 vector
 -
-iostream
--
-algorithm
--
-BST/BSTNode.h
-C:/Users/Amey/CLionProjects/CPP/BST/BSTNode.h
 

@@ -122,33 +122,6 @@ SampleProject/fast:
 	$(MAKE) -f CMakeFiles\SampleProject.dir\build.make CMakeFiles/SampleProject.dir/build
 .PHONY : SampleProject/fast
 
-BST/BSTNode.obj: BST/BSTNode.cpp.obj
-
-.PHONY : BST/BSTNode.obj
-
-# target to build an object file
-BST/BSTNode.cpp.obj:
-	$(MAKE) -f CMakeFiles\SampleProject.dir\build.make CMakeFiles/SampleProject.dir/BST/BSTNode.cpp.obj
-.PHONY : BST/BSTNode.cpp.obj
-
-BST/BSTNode.i: BST/BSTNode.cpp.i
-
-.PHONY : BST/BSTNode.i
-
-# target to preprocess a source file
-BST/BSTNode.cpp.i:
-	$(MAKE) -f CMakeFiles\SampleProject.dir\build.make CMakeFiles/SampleProject.dir/BST/BSTNode.cpp.i
-.PHONY : BST/BSTNode.cpp.i
-
-BST/BSTNode.s: BST/BSTNode.cpp.s
-
-.PHONY : BST/BSTNode.s
-
-# target to generate assembly for a file
-BST/BSTNode.cpp.s:
-	$(MAKE) -f CMakeFiles\SampleProject.dir\build.make CMakeFiles/SampleProject.dir/BST/BSTNode.cpp.s
-.PHONY : BST/BSTNode.cpp.s
-
 Box/Box.obj: Box/Box.cpp.obj
 
 .PHONY : Box/Box.obj
@@ -175,6 +148,87 @@ Box/Box.s: Box/Box.cpp.s
 Box/Box.cpp.s:
 	$(MAKE) -f CMakeFiles\SampleProject.dir\build.make CMakeFiles/SampleProject.dir/Box/Box.cpp.s
 .PHONY : Box/Box.cpp.s
+
+DS/BST/BSTNode.obj: DS/BST/BSTNode.cpp.obj
+
+.PHONY : DS/BST/BSTNode.obj
+
+# target to build an object file
+DS/BST/BSTNode.cpp.obj:
+	$(MAKE) -f CMakeFiles\SampleProject.dir\build.make CMakeFiles/SampleProject.dir/DS/BST/BSTNode.cpp.obj
+.PHONY : DS/BST/BSTNode.cpp.obj
+
+DS/BST/BSTNode.i: DS/BST/BSTNode.cpp.i
+
+.PHONY : DS/BST/BSTNode.i
+
+# target to preprocess a source file
+DS/BST/BSTNode.cpp.i:
+	$(MAKE) -f CMakeFiles\SampleProject.dir\build.make CMakeFiles/SampleProject.dir/DS/BST/BSTNode.cpp.i
+.PHONY : DS/BST/BSTNode.cpp.i
+
+DS/BST/BSTNode.s: DS/BST/BSTNode.cpp.s
+
+.PHONY : DS/BST/BSTNode.s
+
+# target to generate assembly for a file
+DS/BST/BSTNode.cpp.s:
+	$(MAKE) -f CMakeFiles\SampleProject.dir\build.make CMakeFiles/SampleProject.dir/DS/BST/BSTNode.cpp.s
+.PHONY : DS/BST/BSTNode.cpp.s
+
+DS/Graph/ListGraph.obj: DS/Graph/ListGraph.cpp.obj
+
+.PHONY : DS/Graph/ListGraph.obj
+
+# target to build an object file
+DS/Graph/ListGraph.cpp.obj:
+	$(MAKE) -f CMakeFiles\SampleProject.dir\build.make CMakeFiles/SampleProject.dir/DS/Graph/ListGraph.cpp.obj
+.PHONY : DS/Graph/ListGraph.cpp.obj
+
+DS/Graph/ListGraph.i: DS/Graph/ListGraph.cpp.i
+
+.PHONY : DS/Graph/ListGraph.i
+
+# target to preprocess a source file
+DS/Graph/ListGraph.cpp.i:
+	$(MAKE) -f CMakeFiles\SampleProject.dir\build.make CMakeFiles/SampleProject.dir/DS/Graph/ListGraph.cpp.i
+.PHONY : DS/Graph/ListGraph.cpp.i
+
+DS/Graph/ListGraph.s: DS/Graph/ListGraph.cpp.s
+
+.PHONY : DS/Graph/ListGraph.s
+
+# target to generate assembly for a file
+DS/Graph/ListGraph.cpp.s:
+	$(MAKE) -f CMakeFiles\SampleProject.dir\build.make CMakeFiles/SampleProject.dir/DS/Graph/ListGraph.cpp.s
+.PHONY : DS/Graph/ListGraph.cpp.s
+
+DS/Graph/MatrixGraph/MatrixGraph.obj: DS/Graph/MatrixGraph/MatrixGraph.cpp.obj
+
+.PHONY : DS/Graph/MatrixGraph/MatrixGraph.obj
+
+# target to build an object file
+DS/Graph/MatrixGraph/MatrixGraph.cpp.obj:
+	$(MAKE) -f CMakeFiles\SampleProject.dir\build.make CMakeFiles/SampleProject.dir/DS/Graph/MatrixGraph/MatrixGraph.cpp.obj
+.PHONY : DS/Graph/MatrixGraph/MatrixGraph.cpp.obj
+
+DS/Graph/MatrixGraph/MatrixGraph.i: DS/Graph/MatrixGraph/MatrixGraph.cpp.i
+
+.PHONY : DS/Graph/MatrixGraph/MatrixGraph.i
+
+# target to preprocess a source file
+DS/Graph/MatrixGraph/MatrixGraph.cpp.i:
+	$(MAKE) -f CMakeFiles\SampleProject.dir\build.make CMakeFiles/SampleProject.dir/DS/Graph/MatrixGraph/MatrixGraph.cpp.i
+.PHONY : DS/Graph/MatrixGraph/MatrixGraph.cpp.i
+
+DS/Graph/MatrixGraph/MatrixGraph.s: DS/Graph/MatrixGraph/MatrixGraph.cpp.s
+
+.PHONY : DS/Graph/MatrixGraph/MatrixGraph.s
+
+# target to generate assembly for a file
+DS/Graph/MatrixGraph/MatrixGraph.cpp.s:
+	$(MAKE) -f CMakeFiles\SampleProject.dir\build.make CMakeFiles/SampleProject.dir/DS/Graph/MatrixGraph/MatrixGraph.cpp.s
+.PHONY : DS/Graph/MatrixGraph/MatrixGraph.cpp.s
 
 Date/Date.obj: Date/Date.cpp.obj
 
@@ -230,6 +284,33 @@ Student/Student.cpp.s:
 	$(MAKE) -f CMakeFiles\SampleProject.dir\build.make CMakeFiles/SampleProject.dir/Student/Student.cpp.s
 .PHONY : Student/Student.cpp.s
 
+Utilities/Matrix/Matrix.obj: Utilities/Matrix/Matrix.cpp.obj
+
+.PHONY : Utilities/Matrix/Matrix.obj
+
+# target to build an object file
+Utilities/Matrix/Matrix.cpp.obj:
+	$(MAKE) -f CMakeFiles\SampleProject.dir\build.make CMakeFiles/SampleProject.dir/Utilities/Matrix/Matrix.cpp.obj
+.PHONY : Utilities/Matrix/Matrix.cpp.obj
+
+Utilities/Matrix/Matrix.i: Utilities/Matrix/Matrix.cpp.i
+
+.PHONY : Utilities/Matrix/Matrix.i
+
+# target to preprocess a source file
+Utilities/Matrix/Matrix.cpp.i:
+	$(MAKE) -f CMakeFiles\SampleProject.dir\build.make CMakeFiles/SampleProject.dir/Utilities/Matrix/Matrix.cpp.i
+.PHONY : Utilities/Matrix/Matrix.cpp.i
+
+Utilities/Matrix/Matrix.s: Utilities/Matrix/Matrix.cpp.s
+
+.PHONY : Utilities/Matrix/Matrix.s
+
+# target to generate assembly for a file
+Utilities/Matrix/Matrix.cpp.s:
+	$(MAKE) -f CMakeFiles\SampleProject.dir\build.make CMakeFiles/SampleProject.dir/Utilities/Matrix/Matrix.cpp.s
+.PHONY : Utilities/Matrix/Matrix.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -266,18 +347,27 @@ help:
 	@echo ... SampleProject
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... BST/BSTNode.obj
-	@echo ... BST/BSTNode.i
-	@echo ... BST/BSTNode.s
 	@echo ... Box/Box.obj
 	@echo ... Box/Box.i
 	@echo ... Box/Box.s
+	@echo ... DS/BST/BSTNode.obj
+	@echo ... DS/BST/BSTNode.i
+	@echo ... DS/BST/BSTNode.s
+	@echo ... DS/Graph/ListGraph.obj
+	@echo ... DS/Graph/ListGraph.i
+	@echo ... DS/Graph/ListGraph.s
+	@echo ... DS/Graph/MatrixGraph/MatrixGraph.obj
+	@echo ... DS/Graph/MatrixGraph/MatrixGraph.i
+	@echo ... DS/Graph/MatrixGraph/MatrixGraph.s
 	@echo ... Date/Date.obj
 	@echo ... Date/Date.i
 	@echo ... Date/Date.s
 	@echo ... Student/Student.obj
 	@echo ... Student/Student.i
 	@echo ... Student/Student.s
+	@echo ... Utilities/Matrix/Matrix.obj
+	@echo ... Utilities/Matrix/Matrix.i
+	@echo ... Utilities/Matrix/Matrix.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
